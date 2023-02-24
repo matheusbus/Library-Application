@@ -12,6 +12,7 @@ import java.util.Date;
  *
  * @author Matheus
  */
+
 public class User {
     
     private Integer id;

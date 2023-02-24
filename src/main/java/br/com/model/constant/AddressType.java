@@ -10,7 +10,8 @@ package br.com.model.constant;
  */
 public enum AddressType {
     
-    RUA(1), AVENIDA(2);
+    RUA(1),
+    AVENIDA(2);
     
     private final int valor;
     
