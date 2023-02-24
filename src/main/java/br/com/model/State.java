@@ -8,13 +8,13 @@ package br.com.model;
  *
  * @author Matheus
  */
-public class Estado {
+public class State {
     
     private Integer id;
     private String nome;
     private String sigla;
 
-    public Estado() {
+    public State() {
     }
 
     public Integer getId() {

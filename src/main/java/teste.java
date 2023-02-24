@@ -1,6 +1,7 @@
 
 import br.com.exception.DBException;
 import br.com.infra.DB;
+import br.com.model.constant.AddressType;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -19,7 +20,7 @@ public class teste {
     
     public static void main(String[] args) {
         
-        Connection conn = null;
+        /*Connection conn = null;
         Statement st = null;
         ResultSet query = null;
         
@@ -33,7 +34,9 @@ public class teste {
             }
         } catch (SQLException e){
             throw new DBException(e.getMessage());
-        }
+        }*/
+        
+        System.out.println(AddressType.valueOf("RUA").getValor());
         
         // Banco rodando.
         
